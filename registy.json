@@ -1,5 +1,8 @@
 [
   {
     "name":"Bookmarks", "desc": "A website with a bunch of cool bookmarks.", "url": "https://bookmarks.andysthings.tk", "img": "https://raw.githubusercontent.com/Pinball3D/andysthings/main/bookmarks.png"
+  },
+  {
+    "name":"My Website", "desc": "My portfolio of projects.", "url": "/", "img": "https://raw.githubusercontent.com/Pinball3D/andysthings/main/website.png"
   }
 ]
