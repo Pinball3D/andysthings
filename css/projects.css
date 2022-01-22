@@ -1,0 +1,110 @@
+html, body {
+   font-family: Arial;
+   margin: 0;
+   padding: 0;
+   background-color: black;
+}
+a {
+	text-decoration: none;
+}
+#logo {
+	position: absolute;
+   font-size: 30px;
+   color: black;
+   margin-top: 15px;
+   margin-left: 30px;
+   font-weight: bold;
+   transition: 0.3s;
+   transform-origin: 0 0;
+}
+#logo:hover {
+	font-size: 40px;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+#top-bar {
+   position: fixed;
+   top: 0px;
+   width: 100%;
+   background-color: #0a377a;
+   height: 65px;
+}
+#opt {
+	position: relative;
+	display: inline-block;
+	background-color: #0c0d0d;
+	color: white;
+	height: 35px;
+	width: 100px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 35px;
+	border-radius: 50px;
+	margin-top: 15px;
+	margin-right: 7px;
+	left: calc(100% - 234px);
+	cursor: pointer;
+}
+#githubtop {
+	position: fixed;
+	left: calc(100% - 270px);
+	margin-top: 20px;
+}
+#youtubetop {
+	position: fixed;
+	left: calc(100% - 297px);
+	margin-top: 20px;
+}
+#githubfoot {
+	margin-top: 12.5px;
+}
+#youtubefoot {
+	margin-top: 12.5px;
+}
+#footer {
+	position: fixed;
+	height: 50px;
+	width: 100%;
+	top: calc(100% - 50px);
+	background-color: #0a377a;
+}
+#grid {
+	height: calc(100% - 115px);
+	margin-top: 65px;
+	width: 50%;
+	list-style: none;
+}
+.right {
+	margin-right: 0px !important;
+}
+#item {
+	color: white;
+	border-radius: 10px;
+	width: 340px;
+	height: 270px;
+	background-color: #61656b;
+	margin: 0px;
+	margin-right: 50px;
+	margin-top: 50px;
+	display: inline-block;
+}
+#img {
+	vertical-align: top;
+	display: block;
+	border-radius: 10px 10px 0px 0px;
+	width: 340px;
+}
+#title {
+	margin-top: 40px;
+	vertical-align: top;
+	font-weight: bold;
+	font-size: 30px;
+	float: left;
+	margin-left: 5px;
+	display: inline-block;
+}
+#desc {
+	float: left;
+	margin-left: 5px;
+	display: inline-block;
+}

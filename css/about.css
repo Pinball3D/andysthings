@@ -1,0 +1,87 @@
+html, body {
+   font-family: Arial;
+   margin: 0;
+   padding: 0;
+   background-color: black;
+}
+a {
+	text-decoration: none;
+}
+#logo {
+	position: absolute;
+   font-size: 30px;
+   color: black;
+   margin-top: 15px;
+   margin-left: 30px;
+   font-weight: bold;
+   transition: 0.3s;
+   transform-origin: 0 0;
+}
+#logo:hover {
+	font-size: 40px;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+#top-bar {
+   position: fixed;
+   top: 0px;
+   width: 100%;
+   background-color: #0a377a;
+   height: 65px;
+}
+#opt {
+	position: relative;
+	display: inline-block;
+	background-color: #0c0d0d;
+	color: white;
+	height: 35px;
+	width: 100px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 35px;
+	border-radius: 50px;
+	margin-top: 15px;
+	margin-right: 7px;
+	left: calc(100% - 234px);
+	cursor: pointer;
+}
+#githubtop {
+	position: fixed;
+	left: calc(100% - 270px);
+	margin-top: 20px;
+}
+#youtubetop {
+	position: fixed;
+	left: calc(100% - 297px);
+	margin-top: 20px;
+}
+#githubfoot {
+	margin-top: 12.5px;
+}
+#youtubefoot {
+	margin-top: 12.5px;
+}
+#bg {
+	position: absolute;
+	background-color: black;
+	width: 100%;
+	top: 65px;
+	height: calc(100% - 65px);
+}
+#footer {
+	position: absolute;
+	height: 50px;
+	width: 100%;
+	top: calc(100% - 50px);
+	background-color: #0a377a;
+}
+#content {
+	transform: translate(-50%, -50%);
+	left: 50%;
+	top: 50%;
+	color: white;
+	position: absolute;
+	display: block;
+	font-size: 50px;
+	width: 75%;
+}
