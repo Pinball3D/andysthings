@@ -3,9 +3,6 @@
     "name":"Bookmarks", "desc": "A website with a bunch of cool bookmarks.", "url": "https://bookmarks.andysthings.tk", "img": "https://raw.githubusercontent.com/Pinball3D/andysthings/main/bookmarks.png"
   },
   {
-    "name":"My Website", "desc": "My portfolio of projects.", "url": "/", "img": "https://raw.githubusercontent.com/Pinball3D/andysthings/main/website.png"
-  },
-  {
     "name":"Chicken Scream", "desc": "A dumb app I made.", "url": "https://games4games29.itch.io/chicken-scream", "img": "https://raw.githubusercontent.com/Pinball3D/andysthings/main/chickenitch.png"
   },
   {
