@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const port = 5000;
+const port = process.env.PORT || 5000;
 
 //main site
 app.get('/', (req, res) => {
@@ -46,6 +46,7 @@ res.end()
 app.get('*', (req, res) => {
   res.sendFile(process.cwd() + "/html/404.html");
 });
-app.listen(port, () => {
-  console.log(`running on port 80`);
-});
+//Start server
+app.listen(port, (req, res) => {
+console.log(`server listening on port: ${port}`)
+ });
